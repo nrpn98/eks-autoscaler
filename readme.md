@@ -31,9 +31,9 @@ Setup your PC with your aws account
 
 ## Create EKS cluster using eksctl
 In this example I have create the EKS cluster in existing VPC.
-
+```bash
 time eksctl create cluster -f cluster-create.yml
-
+```
 
 ## applying the autoscaler
 Once you created the cluster with autoScaler: true apply following yaml to set the autscaler
